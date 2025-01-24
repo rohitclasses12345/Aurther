@@ -43,9 +43,9 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "29937683")
-API_HASH  = os.environ.get("API_HASH", "5f6d4ca9ffadd037db94446dc7c0d6fa")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7927035300:AAEWD0wWg-Ivyw7aqEmYeJKiMGGgEV_JMkY") 
+API_ID    = os.environ.get("API_ID", "21567814")
+API_HASH  = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7662813243:AAEA3yIU_BZTCHR-lEXRFBelPfDdubYuRFA") 
 
 # Define aiohttp routes
 routes = web.RouteTableDef()
@@ -91,11 +91,11 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Thor_700"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+j1u5Ze6BlSE0ODM1"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+5pXymqz8L380MzI1"),
         ],
         [
-            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+Fag4jwAKNZRiNzk1"),
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+OI2yHhvzFSkzNWZl"),
         ],
     ]
 )
@@ -104,24 +104,24 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Thor_700"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+j1u5Ze6BlSE0ODM1"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+5pXymqz8L380MzI1"),
         ],
         [
-            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+Fag4jwAKNZRiNzk1"),
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+OI2yHhvzFSkzNWZl"),
         ],
     ]
 )
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://ibb.co/jJzw6jk",
-    "https://ibb.co/mDwBpBK",
-    "https://ibb.co/4jX6yCr",
-    "https://ibb.co/fG3Gbzc",
-    "https://ibb.co/smfq00h",
-    "https://ibb.co/7Y0V5cG",
-    "https://ibb.co/C1KVvW6",
+    "https://envs.sh/o6i.jpg",
+    "https://envs.sh/vb_.jpg",
+    "https://envs.sh/vbT.jpg",
+    "https://envs.sh/vif.jpg",
+    "https://envs.sh/rK4.jpg",
+    "https://envs.sh/o6i.jpg",
+    "https://envs.sh/o6h.jpg",
     # Add more image URLs as needed
 ]
 
@@ -134,7 +134,7 @@ async def add_channel(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@Strangerboy27_bot_strangerboy** for subscription details."
         )
         return
 
@@ -224,7 +224,7 @@ async def text_to_txt(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@Strangerboy27_bot_strangerboy** for subscription details."
         )
         return
 
@@ -300,7 +300,7 @@ async def edit_txt(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@Strangerboy27_bot_strangerboy** for subscription details."
         )
         return
 
@@ -488,7 +488,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@Strangerboy27_bot_strangerboy** for subscription details."
         )
         return
 
@@ -600,7 +600,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@Strangerboy27_bot_strangerboy** for subscription details."
         )
         return
 
@@ -643,7 +643,7 @@ async def start_command(bot: Client, message: Message):
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
         "➠ **Use /upload Command to Download From TXT File** 📄\n\n"
-        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @Thor_700"
+        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:**@Strangerboy27_bot_strangerboy"
     )
 
     # Send the image with caption and buttons
@@ -659,7 +659,7 @@ async def start_command(bot: Client, message: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 COOKIES_FILE_PATH = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
-ADMIN_ID = 6433733086  # Admin ID for restricting the command
+ADMIN_ID = 6126688051  # Admin ID for restricting the command
 
 @bot.on_message(filters.command("cookies") & filters.private)
 async def cookies_handler(client: Client, m: Message):
@@ -707,7 +707,7 @@ async def cookies_handler(client: Client, m: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 INSTAGRAM_COOKIES_PATH = os.getenv("INSTAGRAM_COOKIES_PATH", "instagram_cookies.txt")
-ADMIN_ID = 6433733086  # Admin ID for restricting the command
+ADMIN_ID = 6126688051  # Admin ID for restricting the command
 
 @bot.on_message(filters.command("instacookies") & filters.private)
 async def instacookies_handler(client: Client, m: Message):
@@ -757,7 +757,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-ADMIN_ID = 6433733086
+ADMIN_ID = 6126688051
 
 # Function to read subscription data
 def read_subscription_data():
